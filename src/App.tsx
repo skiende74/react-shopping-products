@@ -1,12 +1,12 @@
-import { useState } from "react";
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import Product from './pages/Product';
 
+const queryClient = new QueryClient();
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <h1>React Shopping Products</h1>
-    </>
+    <QueryClientProvider client={queryClient}>
+      <Product />
+    </QueryClientProvider>
   );
 }
 
