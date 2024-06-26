@@ -1,6 +1,7 @@
 ## 배포
 ### 배포링크 : [배포링크](https://react-shopping-products-five.vercel.app/)
 ![image](https://github.com/woowacourse/react-shopping-products/assets/86130706/032d7c7b-f980-45c1-a47a-3e33b87286c6)
+
 ( http api사용으로 인해, 안전하지 않은 콘텐츠를 허용해주세요 :) )
 
 ## 구현에 신경 쓴 부분
