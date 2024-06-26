@@ -2,7 +2,7 @@
 ### 배포링크 : [배포링크](https://react-shopping-products-five.vercel.app/)
 ![image](https://github.com/woowacourse/react-shopping-products/assets/86130706/032d7c7b-f980-45c1-a47a-3e33b87286c6)
 
-( http api사용으로 인해, 안전하지 않은 콘텐츠를 허용해주세요 :) )
+( http api사용으로 인해, 안전하지 않은 콘텐츠를 허용해주셔야, 빈 페이지가 아닌 정상적 페이지가 보입니다. :) )
 
 ## 구현에 신경 쓴 부분
 - react-query로 서버실패 상태에대한 로직 구현
