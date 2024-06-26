@@ -5,8 +5,13 @@
 ( http api사용으로 인해, 안전하지 않은 콘텐츠를 허용해주셔야, 빈 페이지가 아닌 정상적 페이지가 보입니다. :) )
 
 ## 구현에 신경 쓴 부분
+스텝1
+- 각 비동기 API는 커스텀훅에서 담당하고, (useFetchAddCarts , useFetchProducts)
+- 무한스크롤을 위한 훅을 만들어 구현하였습니다. (useIntersectionObserver)
+- 테스팅을 위해 msw로 API 서버를 모킹하였습니다.
+스텝2
 - react-query로 서버실패 상태에대한 로직 구현
-- 비동기 테스트
+- RTL 비동기 테스트
 - 지난미션에서 만든 모달을 활용하여 장바구니모달
 - api호출 공통로직 ApiClient로 리팩토링
 
